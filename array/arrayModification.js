@@ -42,7 +42,5 @@ var twoSumHashTable = function(nums, target) {
         if (hashTable[complement] !== undefined && hashTable[complement] !== i) {
             return [i, hashTable[complement]];
         }
-    }
-    
-    
+    }  
 };
