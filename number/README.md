@@ -2,7 +2,7 @@
 
 Array tasks:
 <ul>
-    <li>1. <a href="./numberRevreseInt.js">Reverse digits of an integer.</a> <span>Given a 32-bit signed integer, reverse the digits.</span>
+    <li>1. <a href="./numberRevereseInt.js">Reverse digits of an integer.</a> <span>Given a 32-bit signed integer, reverse the digits.</span>
     <code> 123 => 321 </code>
     <code> -120 => -21 </code>
     </li>
