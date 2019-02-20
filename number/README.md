@@ -1,9 +1,3 @@
-<style type="text/css">
-ul li {
-    list-style-type: none;
-}
-</style>
-
 # js-algorithms
 
 Array tasks:
