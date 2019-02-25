@@ -1,6 +1,6 @@
-# js-algorithms
-
+# My interview notebook
 Solved examples of problem solving via JS.
+Difinition of data structures.
 
 <h2>Topics:</h2>
 
