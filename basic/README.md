@@ -12,3 +12,11 @@
     <li><strong>Dependency inversion principle</strong> High-level modules should not depend on low-level modules. Both should depend on abstractions. Abstractions should not depend on details. Details should depend on abstractions.</li>
 </ul>
 
+<h3>GRASP</h3>
+
+<p>General Responsibility Assignment Software Patterns (or Principles), abbreviated GRASP, consist of guidelines for assigning responsibility to classes and objects in object-oriented design. It is not related to the SOLID design principle.</p>
+
+<p>The different patterns and principles used in GRASP are controller, creator, indirection, information expert, high cohesion, low coupling, polymorphism, protected variations, and pure fabrication. All these patterns answer some software problems, and these problems are common to almost every software development project. These techniques have not been invented to create new ways of working, but to better document and standardize old, tried-and-tested programming principles in object-oriented design.</p>
+
+More https://en.wikipedia.org/wiki/GRASP_(object-oriented_design)
+
