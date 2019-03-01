@@ -14,3 +14,9 @@ Difinition of data structures.
 <ul>
     <li><a href="./dataStructure">Linked List</li>
 </ul>
+
+<h2> Basic Questions:</h2>
+
+<ul>
+    <li><a href="./basicQuestions">SOLID</li>
+</ul>
