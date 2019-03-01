@@ -15,8 +15,8 @@ Difinition of data structures.
     <li><a href="./dataStructure">Linked List</li>
 </ul>
 
-<h2> Basic Questions:</h2>
+<h2> Basic Knowledge:</h2>
 
 <ul>
-    <li><a href="./basicQuestions">SOLID</li>
+    <li><a href="./basicQuestions">Design Patterns</li>
 </ul>
