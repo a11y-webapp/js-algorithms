@@ -18,5 +18,5 @@ Difinition of data structures.
 <h2> Basic Knowledge:</h2>
 
 <ul>
-    <li><a href="./basicQuestions">Design Patterns</li>
+    <li><a href="./basic">Design Patterns</li>
 </ul>
