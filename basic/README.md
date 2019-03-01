@@ -3,7 +3,7 @@
 <h3>SOLID</h3>
 
 <div>SOLID is acronym for five design principles intended to make software designs more understandable, flexible and maintainable.</div>
-<div></div>
+<br/>
 <ul>
     <li><strong>Single responsibility principle.</strong> It states that every module, class, or function should have responsibility over a single part of the functionality provided by the software, and that responsibility should be entirely encapsulated by the class.</li>
     <li><strong>Open–closed principle.</strong> It states "software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification"; that is, such an entity can allow its behaviour to be extended without modifying its source code.</li> 
