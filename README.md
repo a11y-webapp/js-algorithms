@@ -12,7 +12,8 @@ Difinition of data structures.
 <h2> Data Structures:</h2>
 
 <ul>
-    <li><a href="./dataStructure">Linked List</li>
+    <li><a href="./dataStructure/linkedList">Linked List</a></li>
+    <li><a href="./dataStructure/hashTable">Hash Table</a></li>
 </ul>
 
 <h2> Basic Knowledge:</h2>
