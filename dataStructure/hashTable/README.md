@@ -10,4 +10,4 @@ A hash table (hash map) is a data structure used to implement an associative arr
 
 Source https://www.geeksforgeeks.org/hashing-set-1-introduction/
 
-Source https://medium.freecodecamp.org/how-to-implement-a-simple-hash-table-in-javascript-cb3b9c1f299
+Source https://medium.freecodecamp.org/how-to-implement-a-simple-hash-table-in-javascript-cb3b9c1f2997
