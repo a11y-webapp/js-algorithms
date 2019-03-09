@@ -39,7 +39,7 @@ More https://en.wikipedia.org/wiki/GRASP_(object-oriented_design)
 <p>Singletons reduce the need for global variables which is particularly important in JavaScript because it limits namespace pollution and associated risk of name collisions.</p>
 
 <code>
-    
+
     var Singleton = (function () {
         var instance;
 
@@ -57,7 +57,5 @@ More https://en.wikipedia.org/wiki/GRASP_(object-oriented_design)
             }
         };
     })();
-
 </code>
-
 Source https://www.dofactory.com/javascript/singleton-design-pattern
