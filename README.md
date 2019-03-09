@@ -16,10 +16,13 @@ Difinition of data structures.
     <li><a href="./dataStructure/hashTable">Hash Table</a></li>
 </ul>
 
-<h2> Basic Knowledge:</h2>
+<h2> Design Patterns:</h2>
 
 <ul>
-    <li><a href="./basic">Design Patterns</li>
+    <li><a href="./dp/singelton">Singelton</li>
+    <li><a href="./dp/mvc">MVC</li>
+    <li><a href="./dp/solid">SOLID</li>
+    <li><a href="./dp/grasp">GRASP</li>
 </ul>
 
 <h2> React:</h2>
