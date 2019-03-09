@@ -1,12 +1,12 @@
-<h2>Singelton</h2>
+## Singelton
 
-<p>Definition: Class has only one instance and provide a global access to it.</p>
+**Definition:** Class has only one instance and provide a global access to it.
 
-<p>The Singleton Pattern limits the number of instances of a particular object to just one. This single instance is called the singleton.</p>
+The Singleton Pattern limits the number of instances of a particular object to just one. This single instance is called the singleton.
 
-<p>Singletons are useful in situations where system-wide actions need to be coordinated from a single central place. An example is a database connection pool. The pool manages the creation, destruction, and lifetime of all database connections for the entire application ensuring that no connections are 'lost'. Another posible example might be logging user action.</p>
+Singletons are useful in situations where system-wide actions need to be coordinated from a single central place. An example is a database connection pool. The pool manages the creation, destruction, and lifetime of all database connections for the entire application ensuring that no connections are 'lost'. Another posible example might be logging user action.
 
-<p>Singletons reduce the need for global variables which is particularly important in JavaScript because it limits namespace pollution and associated risk of name collisions.</p>
+ Singletons reduce the need for global variables which is particularly important in JavaScript because it limits namespace pollution and associated risk of name collisions.
 
 ```javascript
 var Singleton = (function () {
