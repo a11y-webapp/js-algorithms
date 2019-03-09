@@ -8,26 +8,24 @@
 
 <p>Singletons reduce the need for global variables which is particularly important in JavaScript because it limits namespace pollution and associated risk of name collisions.</p>
 
-<code>
-    
-    var Singleton = (function () {
-        var instance;
+```javascript
+var Singleton = (function () {
+    var instance;
 
-        function createInstance() {
-            var object = new Object("I am the instance");
-            return object;
-        }
+    function createInstance() {
+        var object = new Object("I am the instance");
+        return object;
+    }
 
-        return {
-            getInstance: function () {
-                if (!instance) {
-                    instance = createInstance();
-                }
-                return instance;
+    return {
+        getInstance: function () {
+            if (!instance) {
+                instance = createInstance();
             }
-        };
-    })();
-
-</code>
+            return instance;
+        }
+    };
+})();
+```
 
 Source https://www.dofactory.com/javascript/singleton-design-pattern
