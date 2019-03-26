@@ -8,6 +8,9 @@ Difinition of data structures.
 * [Arrays](./array)
 * [Numbers](.number/)
 
+## Basic knowledge
+* [BigO](./basic/bigo)
+
 ## Data Structures:
 
 * [Linked List](./dataStructure/linkedList)
