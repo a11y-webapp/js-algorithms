@@ -21,7 +21,7 @@ A Developer should choose object when an order of the key/value pairs is not imp
 
 ### Arryas
 
-Ordered Data stricture.
+Ordered Data structures.
 * Insertion = at the begginig O(n), at the end O(1)
 * Removal = at the begginig O(n), at the end O(1)
 push()/pop() are always faster than shift()/unshift()
