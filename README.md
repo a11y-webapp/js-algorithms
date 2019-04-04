@@ -3,10 +3,12 @@
 Solved examples of problem solving via JS.
 Difinition of data structures.
 
-## Problem Solving Topics:
+## Problem Solving Topics and Patterns:
 
 * [Arrays](./array)
 * [Numbers](.number/)
+* [Frequency Counter](./psPatterns/fc)
+
 
 ## Basic knowledge
 * [BigO](./basic/bigo)
