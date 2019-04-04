@@ -3,15 +3,18 @@
 This pattern uses object or set to collect values and frequencies of values. It helps to avoing nested loops meaning avoid O(n^2) with array and string
 
 1. Problem: Given two arrays, write a function to check if second array contains squared values of first array.
-    Input/Output:
+   
 ```javascript
+Input/Output:
+
 ([1, 2, 3], [4, 9, 1]) => true;
 ([1, 2, 3], [4, 1]) => false;
 ([1, 2, 3], [1, 9, 1]) => false;
 ```
-    Solution:
 
 ```javascript
+Solution:
+
 //Time: O(n) Space: O(n)
 var sameFC = function (arr1, arr2) {
     let fcObj1 = {};
