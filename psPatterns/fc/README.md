@@ -42,6 +42,5 @@ var sameFC = function (arr1, arr2) {
     }
 
     return true;
-
 }
 ```
