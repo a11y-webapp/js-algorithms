@@ -1,4 +1,4 @@
-//Time: O(n) Space: O(n)
+//Time: O(n) Space: O(1) -  obj's size stays constant no matter how large n is
 /**
  * @param {string} s
  * @param {string} t
@@ -32,7 +32,7 @@ var isAnagram = function(s, t) {
     return true;
 };
 
-//Time: O(n) Space: O(n)
+//Time: O(n) Space: O(1) -  obj's size stays constant no matter how large n is
 /**
  * @param {string} s
  * @param {string} t
