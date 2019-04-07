@@ -7,7 +7,7 @@ Difinition of data structures.
 
 * [Arrays](./array)
 * [Numbers](.number/)
-* [Frequency Counter](./psPatterns/fc)
+* [Frequency Counter Pattern](./psPatterns/fc)
 
 
 ## Basic knowledge
