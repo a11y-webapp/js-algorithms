@@ -2,7 +2,7 @@
 
 This pattern uses object or set to collect values and frequencies of values. It helps to avoing nested loops meaning avoid O(n^2) with array and string
 
-1. Problem: [Given two arrays, write a function to check if the second array contains squared values of the first array.](./fc.js)
+1. Problem: [Given two arrays, write a function to check if the second array contains squared values of the first array.](./fc_squaredArrs.js)
    
 ```javascript
 Input/Output:
@@ -43,4 +43,52 @@ var sameFC = function (arr1, arr2) {
 
     return true;
 }
+```
+
+2. Problem: [Given two strings s and t , write a function to determine if t is an anagram of s. You may assume the string contains only lowercase alphabets.](./fc_anagramStrs.js)
+
+```javascript
+Input/Output:
+
+("anagram", "nagaram") => true;
+("rat", "cat") => false;
+("ssk", "skk") => false;
+```
+
+```javascript
+Solution:
+
+//Time: O(n) Space: O(n)
+/**
+ * @param {string} s
+ * @param {string} t
+ * @return {boolean}
+ */
+var isAnagram = function(s, t) {
+    //check is amount of chars ===
+    if (s.length !== t.length) {
+        return false;
+    }
+    
+    let objS = {};
+    let objT = {};
+    
+    //create two objs with char as key and freq as value
+    for (let i of s) {
+        objS[i] = (objS[i] || 0) + 1;
+    }
+    
+    for (let i of t) {
+        objT[i] = (objT[i] || 0) + 1;
+    }
+        
+    //loop thought first obj and check the key in the second obj and compare freq
+    for (let key in objS) {
+        if (!objT[key] || objS[key] !== objT[key]) {
+            return false;
+        }
+    }
+    
+    return true;
+};
 ```
