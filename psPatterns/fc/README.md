@@ -2,7 +2,7 @@
 
 This pattern uses object or set to collect values and frequencies of values. It helps to avoing nested loops meaning avoid O(n^2) with array and string
 
-1. Problem: [Given two arrays, write a function to check if second array contains squared values of first array.](./fc.js)
+1. Problem: [Given two arrays, write a function to check if the second array contains squared values of the first array.](./fc.js)
    
 ```javascript
 Input/Output:
