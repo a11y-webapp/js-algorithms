@@ -8,6 +8,7 @@ Difinition of data structures.
 * [Arrays](./array)
 * [Numbers](.number/)
 * [Frequency Counter Pattern](./psPatterns/fc)
+* [Fast/Slow Runners](./psPatterns/fsRunners)
 
 
 ## Basic knowledge
