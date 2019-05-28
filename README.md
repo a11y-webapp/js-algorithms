@@ -9,7 +9,8 @@ Difinition of data structures.
 <!-- * [Numbers](.number/) -->
 * [Frequency Counter Pattern](./psPatterns/fc)
 * [Fast/Slow Runners](./psPatterns/fsRunners)
-* [Sliding Window Pattern](./psPatterns/slidingWindow) [longest unique substr, max subarr sum, or continuous subset of the data]
+* [Sliding Window Pattern](./psPatterns/slidingWindow) [*longest unique substr, max subarr sum, or continuous subset of the data*]
+* [Divide and Conquer](./psPatterns/divideConquer) [*binary search*]
 
 
 ## Basic knowledge
