@@ -12,7 +12,6 @@ Difinition of data structures.
 * [Sliding Window Pattern](./psPatterns/slidingWindow) [*longest unique substr, max subarr sum, or continuous subset of the data*]
 * [Divide and Conquer](./psPatterns/divideConquer) [*binary search*]
 
-
 ## Basic knowledge
 * [BigO](./basic/bigo)
 
