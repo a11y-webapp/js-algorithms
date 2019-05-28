@@ -52,3 +52,6 @@ function maxSubarrSumSW(arr, n) {
     return maxSum;
 }
 ```
+
+Tasks from leetcode which might be resolved with Sliding Window Pattern.
+643. [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)
