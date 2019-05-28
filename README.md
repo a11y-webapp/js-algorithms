@@ -3,12 +3,13 @@
 Solved examples of problem solving via JS.
 Difinition of data structures.
 
-## Problem Solving Topics and Patterns:
+## Problem Solving Patterns:
 
-* [Arrays](./array)
-* [Numbers](.number/)
+<!-- * [Arrays](./array) -->
+<!-- * [Numbers](.number/) -->
 * [Frequency Counter Pattern](./psPatterns/fc)
 * [Fast/Slow Runners](./psPatterns/fsRunners)
+* [Sliding Window Pattern](./psPatterns/slidingWindow) [longest unique substr, max subarr sum, or continuous subset of the data]
 
 
 ## Basic knowledge
