@@ -2,6 +2,7 @@
 
 Technic, which uses a window, depending on certain condition the window either increases or closes. It usually can be used in solving next problems:
 
+Types of the problems:
 * longest unique substring
 * max subarray sum
 in other words 
