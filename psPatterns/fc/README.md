@@ -12,7 +12,7 @@ List of problems:
 
 
 #### Problem 1
-1. [Given two arrays, write a function to check if the second array contains squared values of the first array.](./fc_squaredArrs.js)
+[Given two arrays, write a function to check if the second array contains squared values of the first array.](./fc_squaredArrs.js)
    
 ```javascript
 Input/Output:
@@ -55,7 +55,7 @@ var sameFC = function (arr1, arr2) {
 }
 ```
 #### Problem 2
-2. [Given two strings s and t , write a function to determine if t is an anagram of s. You may assume the string contains only lowercase alphabets.](./fc_anagramStrs.js)
+[Given two strings s and t , write a function to determine if t is an anagram of s. You may assume the string contains only lowercase alphabets.](./fc_anagramStrs.js)
 
 ```javascript
 Input/Output:
@@ -104,7 +104,7 @@ var isAnagram = function(s, t) {
 ```
 
 #### Problem 3
-3. [Given two positive integers num1 and num2, write a function to determine if numbers have the same frequency of the digist.](./fc_sameFrequencyInt.js)
+[Given two positive integers num1 and num2, write a function to determine if numbers have the same frequency of the digist.](./fc_sameFrequencyInt.js)
 
 ```javascript
 Input/Output:
