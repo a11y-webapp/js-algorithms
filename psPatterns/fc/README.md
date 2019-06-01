@@ -4,15 +4,15 @@ This pattern uses object or set to collect values and frequencies of values. It 
 
 List of problems:
 
-1. Problem: [Given two arrays, write a function to check if the second array contains squared values of the first array.](#fc-task1)
+1. [Given two arrays, write a function to check if the second array contains squared values of the first array.](#fc-task1)
 
 2. Problem: [Given two strings s and t , write a function to determine if t is an anagram of s. You may assume the string contains only lowercase alphabets.](./fc_anagramStrs.js)
 
 3. Problem: [Given two positive integers num1 and num2, write a function to determine if numbers have the same frequency of the digist.](./fc_sameFrequencyInt.js)
 
 
-
-[1.](#fc-task1) Problem: [Given two arrays, write a function to check if the second array contains squared values of the first array.](./fc_squaredArrs.js)
+### Fc Task1
+1. Problem: [Given two arrays, write a function to check if the second array contains squared values of the first array.](./fc_squaredArrs.js)
    
 ```javascript
 Input/Output:
