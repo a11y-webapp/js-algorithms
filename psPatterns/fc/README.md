@@ -4,7 +4,7 @@ This pattern uses object or set to collect values and frequencies of values. It 
 
 List of problems:
 
-1. [Given two arrays, write a function to check if the second array contains squared values of the first array.](#problem1)
+1. [Given two arrays, write a function to check if the second array contains squared values of the first array.](#problem-1)
 
 2. Problem: [Given two strings s and t , write a function to determine if t is an anagram of s. You may assume the string contains only lowercase alphabets.](./fc_anagramStrs.js)
 
