@@ -1,6 +1,6 @@
 ## Frequency Counter
 
-This pattern uses object or set to collect values and frequencies of values. It helps to avoing nested loops meaning avoid O(n^2) with array and string
+This pattern uses object or set to collect values and frequencies of values. It helps to avoid nested loops meaning avoid O(n^2). It is usually applied with arrays or strings.
 
 1. Problem: [Given two arrays, write a function to check if the second array contains squared values of the first array.](./fc_squaredArrs.js)
    
@@ -91,4 +91,17 @@ var isAnagram = function(s, t) {
     
     return true;
 };
+```
+
+3. Problem: [Given two positive integers num1 and num2, write a function to determine if numbers have the same frequency of the digist.](./fc_sameFrequencyInt.js)
+
+```javascript
+Input/Output:
+
+("anagram", "nagaram") => true;
+("rat", "cat") => false;
+("ssk", "skk") => false;
+```
+
+```javascript
 ```

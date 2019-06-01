@@ -1,3 +1,4 @@
+// Problem: check if the second array contains squared values of the first array
 // First naive approach
 // Time: O(n^2) Space: O(1) 
 var same = function (arr1, arr2) {
