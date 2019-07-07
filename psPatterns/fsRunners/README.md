@@ -2,9 +2,15 @@
 
 Technic, which uses several pointers associated with a certain position, pointers can move forward to beginning, end or to the middle, depending on the task.
 
-Examples with a sorted order.
+Examples with a *sorted* order.
 
-1. Problem: [Given an array of sorted integers, write a function to find the first pair where the sum is 0.](./fc_sumInSortedArray.js)
+1. Problem: [Given an array of sorted integers, write a function to find the first pair where the sum is 0.](#problem-1)
+
+2. Problem: [Given an array of sorted integers and a target value, find if there is a pair of values in the array which equals the target average.](#problem-2)
+
+#### Problem 1
+
+1. [Given an array of sorted integers, write a function to find the first pair where the sum is 0.](./fc_sumInSortedArray.js)
    
 ```javascript
 Input/Output:
@@ -38,7 +44,45 @@ var sumInSortedArr = function (arr) {
 }
 ```
 
-2. Problem: [Given an array of sorted integers, write a function to count all unique values.](./fc_uniqueValsInSortedArray.js)
+#### Problem 2
+
+2. [Given an array of sorted integers and a target value, find if there is a pair of values in the array which equals the target average](./fsRun_averagePair)
+
+```javascript
+Input/Output:
+
+([1, 2, 3]) => true;
+([1, 3, 4, 6, 7], 7) => false;
+([], 7) => false;
+```
+
+```javascript
+Solution:
+
+//Time: O(n) Space:O(1)
+var averagePair = function(arr, target){
+    if (!arr.length) return false;
+
+    let i = 0;
+    let j = arr.length - 1;
+
+    while (i < j) {
+        let arrAvrg = (arr[i] + arr[j]) / 2;
+
+        if (arrAvrg === target) {
+            return true;
+        } else if (arrAvrg > target){
+            j--;
+        } else {
+            i++;
+        }
+    }
+
+    return false;
+}
+```
+
+3. Problem: [Given an array of sorted integers, write a function to count all unique values.](./fc_uniqueValsInSortedArray.js)
    
 ```javascript
 Input/Output:
