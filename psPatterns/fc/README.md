@@ -10,6 +10,7 @@ List of problems:
 
 3. [Given two positive integers num1 and num2, write a function to determine if numbers have the same frequency of the digist.](#problem-3)
 
+4. [Given variable number of arguments, find if there are any dplicates.](#problem-4)
 
 #### Problem 1
 [Given two arrays, write a function to check if the second array contains squared values of the first array.](./fc_squaredArrs.js)
@@ -115,4 +116,31 @@ Input/Output:
 ```
 
 ```javascript
+```
+
+#### Problem 4
+[Given variable number of arguments, find if there are any dplicates.](./fc_anyDuplicates.js)
+
+```javascript
+Input/Output:
+
+anyDuplicates(1,2,3) => false
+anyDuplicates(1,2,3,2) => true
+anyDuplicates('a', 'b', 'c', 'b') => true
+```
+
+```javascript
+var anyDuplicates = function (...args) {
+    let argsFC = {};
+
+    for (let vals of args) {
+        if (!argsFC[vals]) {
+          argsFC[vals] = 1;
+        } else {
+          return false;
+        }
+    }
+    
+    return true;
+}
 ```
