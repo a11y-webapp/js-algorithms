@@ -8,6 +8,8 @@ Examples with a *sorted* order.
 
 2. Problem: [Given an array of sorted integers and a target value, find if there is a pair of values in the array which equals the target average.](#problem-2)
 
+3. Problem: [Write a function which takes in two strings and checks if first string is a subsequence of a second one.](#problem-3)
+
 #### Problem 1
 
 1. [Given an array of sorted integers, write a function to find the first pair where the sum is 0.](./fc_sumInSortedArray.js)
@@ -82,7 +84,27 @@ var averagePair = function(arr, target){
 }
 ```
 
-3. Problem: [Given an array of sorted integers, write a function to count all unique values.](./fc_uniqueValsInSortedArray.js)
+#### Problem 3
+
+3. Problem: [Write a function which takes in two strings and checks if first string is a subsequence of a second one.](./fsRun_isSubsequence.js)
+
+```javascript
+Input/Output:
+
+("hello", "hello world") => true;
+("sing", "sting") => true;
+("abc", "bca") => false;
+("abc", "abeeeec") => true;
+```
+
+```javascript
+Solution:
+
+```
+
+#### Problem 4
+
+4. Problem: [Given an array of sorted integers, write a function to count all unique values.](./fc_uniqueValsInSortedArray.js)
    
 ```javascript
 Input/Output:
