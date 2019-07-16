@@ -1,0 +1,18 @@
+newProblem: isSbsequence fast/slow runners
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Date:      Tue Jul 16 10:00:21 2019 +0200
+# Committer: a11y-webapp <Nika@Nikas-MacBook-Air.local>
+#
+# On branch master
+# Your branch is ahead of 'origin/master' by 1 commit.
+#   (use "git push" to publish your local commits)
+#
+# Changes to be committed:
+#	modified:   .DS_Store
+#	modified:   psPatterns/.DS_Store
+#	modified:   psPatterns/fsRunners/README.md
+#	new file:   psPatterns/fsRunners/fsRun_isSubsequence.js
+#
