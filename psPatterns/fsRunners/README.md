@@ -10,6 +10,8 @@ Examples with a *sorted* order.
 
 3. Problem: [Write a function which takes in two strings and checks if first string is a subsequence of a second one.](#problem-3)
 
+4. Problem: [Write a function which takes in an array of integers and a number and finds a maximum subarrya sum with the length of the number passed to the function.](#problem-4)
+
 #### Problem 1
 
 1. [Given an array of sorted integers, write a function to find the first pair where the sum is 0.](./fc_sumInSortedArray.js)
@@ -124,7 +126,24 @@ var isSubsequence = function(str1, str2){
 
 #### Problem 4
 
-4. Problem: [Given an array of sorted integers, write a function to count all unique values.](./fc_uniqueValsInSortedArray.js)
+4. Problem: [Write a function which takes in an array of integers and a number and finds a maximum subarrya sum with the length of the number passed to the function](./)
+
+```javascript
+Input/Output:
+
+("hello", "hello world") => true;
+("sing", "sting") => true;
+("abc", "bca") => false;
+("abc", "abeeeec") => true;
+```
+
+```javascript
+Solution:
+
+```
+
+#### Problem 5
+5. Problem: [Given an array of sorted integers, write a function to count all unique values.](./fc_uniqueValsInSortedArray.js)
    
 ```javascript
 Input/Output:

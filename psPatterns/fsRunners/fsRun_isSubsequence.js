@@ -3,6 +3,7 @@
 // ("abc", "bca") => false;
 // ("abc", "abeeeec") => true;
 
+//Time: O(n+m) Space: O(1)
 var isSubsequence = function(str1, str2){
     if (!str1.length || !str2.length) return false;
 

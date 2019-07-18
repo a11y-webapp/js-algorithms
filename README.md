@@ -8,8 +8,8 @@ Difinition of data structures.
 <!-- * [Arrays](./array) -->
 <!-- * [Numbers](.number/) -->
 * [Frequency Counter Pattern](./psPatterns/fc)
-* [Fast/Slow Runners](./psPatterns/fsRunners)[*subsequence(not continuous but with order), average pair in array*]
-* [Sliding Window Pattern](./psPatterns/slidingWindow) [*longest unique substr, max subarr sum, or continuous subset of the data*]
+* [Fast/Slow Runners](./psPatterns/fsRunners)[*subsequence(not continuous but with order), average pair in array, max subarray sum*]
+* [Sliding Window Pattern](./psPatterns/slidingWindow) [*longest unique substr, max subarr sum, or **continuous subset** of the data*]
 * [Divide and Conquer](./psPatterns/divideConquer) [*binary search*]
 
 ## Basic knowledge
