@@ -15,7 +15,7 @@ var maxSubarraySum = function (arr, subLength) {
     let currentSum = initSum;
     let maxSum = initSum;
 
-    for (let i = subLength; i < arr.length - subLength + 1; i++) {
+    for (let i = subLength; i <= arr.length - subLength + 1; i++) {
         currentSum += arr[i] - arr[i - subLength];
         maxSum = Math.max(currentSum, maxSum);
     }
