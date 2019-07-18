@@ -10,7 +10,13 @@ in other words
 
 Examples:
 
-1. Problem: [Given an array of integers and a number n, write a function to calculate the maximum sum of n consecutive elements in the array.](./slidingWindow_maxSubarrSum.js)
+1. Problem: [Given an array of integers and a number n, write a function to calculate the maximum sum of n consecutive elements in the array.](#problem-1)
+
+2. Problem: [Write a function which takes in two params - an array of positive integers and a positive integer. It should return the minimum length of a subarray sum, where sum is equal or grater than second arguments or 0](#problem-2)
+
+#### Problem 1
+
+1. [Given an array of integers and a number n, write a function to calculate the maximum sum of n consecutive elements in the array.](./slidingWindow_maxSubarrSum.js)
 
 ```javascript
 Input/Output:
@@ -53,6 +59,83 @@ function maxSubarrSumSW(arr, n) {
     return maxSum;
 }
 ```
+
+```javascript
+Input/Output:
+
+//maxSubarraySum([100, 200, 300, 400], 2) => 700
+//maxSubarraySum([100, 200], 3) => null
+//maxSubarraySum([2, -4, 5, 10, 9, -3], 3) => 24
+```
+
+```javascript
+Solution:
+//Time: O(n) Space: O(1)
+var maxSubarraySum = function (arr, subLength) {
+    if (arr.length < subLength) return null;
+
+    var initSum = 0;
+    
+    for (let i = 0; i < subLength; i++) {
+        initSum += arr[i];
+    }
+
+    let currentSum = initSum;
+    let maxSum = initSum;
+
+    for (let i = subLength; i <= arr.length - subLength + 1; i++) {
+        currentSum += arr[i] - arr[i - subLength];
+        maxSum = Math.max(currentSum, maxSum);
+    }
+
+    return maxSum;
+}
+```
+
+#### Problem 2
+2. [Write a function which takes in two params - an array of positive integers and a positive integer. It should return the minimum length of a subarray sum, where sum is equal or grater than second arguments or 0](./)
+
+```javascript
+Input/Output:
+
+minSubArray([2,3,1,2,4,3], 7)
+minSubArray([2,1,6,5,4], 9)
+minSubArray([3,1,7,11,2,9,8,21,62,33,19], 52)
+minSubArray([1,4,16,22,5,7,8,9,10], 39)
+minSubArray([1,4,16,22,5,7,8,9,10], 55)
+minSubArray([4,3,3,8,1,2,3], 11)
+minSubArray([1,4,16,22,5,7,8,9,10], 95)
+```
+
+```javascript
+Solution:
+//Time: O(n) Space: O(1)
+function minSubArrayLen(arr, target){
+    let sum = arr[0];
+    let start = 0;
+    let end = 0;
+    let minSubArrayLength = Infinity;
+    let tempLength;
+
+    while (start < arr.length && end < arr.length) {
+        if (sum < target) {
+            end++;
+            sum += arr[end];
+        } else {
+            tempLength = end - start + 1;
+            minSubArrayLength = Math.min(tempLength, minSubArrayLength);
+            sum -= arr[start];
+            start++;
+        }
+
+    }
+    if (minSubArrayLength === Infinity) {
+        return 0;
+    }
+    return minSubArrayLength;
+}
+```
+
 
 Tasks from leetcode which might be resolved with Sliding Window Pattern.
 643. [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)
