@@ -126,20 +126,39 @@ var isSubsequence = function(str1, str2){
 
 #### Problem 4
 
-4. Problem: [Write a function which takes in an array of integers and a number and finds a maximum subarrya sum with the length of the number passed to the function](./)
+4. Problem: [Write a function which takes in an array of integers and a number and finds a maximum subarrya sum with the length of the number passed to the function](./fsRun_maxSubarraySum.js)
 
 ```javascript
 Input/Output:
 
-("hello", "hello world") => true;
-("sing", "sting") => true;
-("abc", "bca") => false;
-("abc", "abeeeec") => true;
+maxSubarraySum([100, 200, 300, 400], 2) => 700
+maxSubarraySum([100, 200], 3) => null
+maxSubarraySum([2, -4, 5, 10, 9, -3], 3) => 24
 ```
 
 ```javascript
 Solution:
 
+//Time: O(n) Space: O(1)
+var maxSubarraySum = function (arr, subLength) {
+    if (arr.length < subLength) return null;
+
+    var initSum = 0;
+    
+    for (let i = 0; i < subLength; i++) {
+        initSum += arr[i];
+    }
+
+    let currentSum = initSum;
+    let maxSum = initSum;
+
+    for (let i = subLength; i <= arr.length - subLength + 1; i++) {
+        currentSum += arr[i] - arr[i - subLength];
+        maxSum = Math.max(currentSum, maxSum);
+    }
+
+    return maxSum;
+}
 ```
 
 #### Problem 5

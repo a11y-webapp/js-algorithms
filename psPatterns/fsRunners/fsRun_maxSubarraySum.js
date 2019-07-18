@@ -3,6 +3,7 @@
 //maxSubarraySum([100, 200], 3) => null
 //maxSubarraySum([2, -4, 5, 10, 9, -3], 3) => 24
 
+//Time: O(n) Space: O(1)
 var maxSubarraySum = function (arr, subLength) {
     if (arr.length < subLength) return null;
 
