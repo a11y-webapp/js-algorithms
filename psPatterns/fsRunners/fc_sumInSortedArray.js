@@ -1,3 +1,4 @@
+//Find a pair of values in sorted array where sum is 0
 //Time: O(n) Space:O(1)
 var sumInSortedArr = function (arr) {
     //create two pointers moving to the middle
