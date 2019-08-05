@@ -14,6 +14,8 @@ Examples:
 
 2. Problem: [Write a function which takes in two params - an array of positive integers and a positive integer. It should return the minimum length of a subarray sum, where sum is equal or grater than second arguments or 0](#problem-2)
 
+3. Problem: [Write a function which takes in a string - find longest substring with distinct characters](#problem-3)
+
 #### Problem 1
 
 1. [Given an array of integers and a number n, write a function to calculate the maximum sum of n consecutive elements in the array.](./slidingWindow_maxSubarrSum.js)
@@ -138,4 +140,42 @@ function minSubArrayLen(arr, target){
 
 
 Tasks from leetcode which might be resolved with Sliding Window Pattern.
+
+
+#### Problem 3
+3. [Write a function which takes in a string - find longest substring with distinct characters](./slidingWindow_logestSubstr.js)
+
+```javascript
+Input/Output:
+("helloworld") => 5
+("keepcalmandwork") => 9
+("aaa") => 1
+```
+
+```javascript
+Solution:
+//Time: O(n) Space: O(1)
+
+var longestSubStr = function (str) {
+    let maxLength = 0;
+    let chars = {};
+    let start = 0;
+   
+    for (let i = 0; i < str.length; i++) {
+        let curr = str[i];
+
+        if (chars[curr]) {
+            start = Math.max(chars[curr], start);
+        }
+
+        maxLength = Math.max(maxLength, i - start + 1);
+        chars[curr] = i + 1;
+    }
+
+    return maxLength;
+}
+```
+
+
+
 643. [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)
