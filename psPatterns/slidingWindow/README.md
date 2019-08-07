@@ -173,6 +173,7 @@ var longestSubStr = function (str) {
     }
 
     return maxLength;
+
 }
 ```
 
