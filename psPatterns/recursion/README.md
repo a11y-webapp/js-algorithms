@@ -9,6 +9,7 @@ Examples:
 
 1. Problem: [Write function power, which accepts the base and the exponent.](#problem-1)
 2. Problem: [Write a fuctorial function](#problem-2)
+3. Problem: [Write a function which accepts a number and sum up all numbers from 0 to number](#problem-3)
 
 #### Problem 1
 1. Write function power, which accepts the base and the exponent.
@@ -50,6 +51,26 @@ function factorial(num) {
     if (!num) return 1;
     if (num === 1) return 1;
     return num * factorial(--num);
+}
+```
+
+#### Problem 1
+1. Write function power, which accepts the base and the exponent.
+
+```javascript
+Input/Output:
+
+power(2, 2); // 4
+power(2, 0); // 1
+power(2, 4); // 16
+```
+
+```javascript
+Solution:
+
+function sumUp(num) {
+    if (num === 1) return 1;
+    return num + sumUp(--num);
 }
 ```
 
