@@ -9,7 +9,8 @@ Examples:
 
 1. Problem: [Write function power, which accepts the base and the exponent.](#problem-1)
 2. Problem: [Write a fuctorial function](#problem-2)
-3. Problem: [Write a function which accepts a number and sum up all numbers from 0 to number](#problem-3)
+3. Problem: [Write a function which accepts a number and sum up all numbers from 0 to passed number](#problem-3)
+4. Problem: [Write a function which takes in an array of numbers and sum up all numbers in array](#problem-4)
 
 #### Problem 1
 1. Write function power, which accepts the base and the exponent.
@@ -54,15 +55,14 @@ function factorial(num) {
 }
 ```
 
-#### Problem 1
-1. Write function power, which accepts the base and the exponent.
+#### Problem 3
+3. Write function, which accepts number(num) and sum up all number from 0 to num.
 
 ```javascript
 Input/Output:
 
-power(2, 2); // 4
-power(2, 0); // 1
-power(2, 4); // 16
+sumUp(6); // 21
+sumUp(10); // 55
 ```
 
 ```javascript
@@ -74,3 +74,21 @@ function sumUp(num) {
 }
 ```
 
+#### Problem 4
+4. Write a function which takes in an array of numbers and multipy all numbers in array.
+
+```javascript
+Input/Output:
+
+mulpOfArray([1, 2, 3]]); // 6
+mulpOfArray([10, 50, 7]]); // 67
+```
+
+```javascript
+Solution:
+
+function mulpOfArray(arr) {
+    if (!arr.length) return 1;
+    return arr[0] * mulpOfArray(arr.slice(1));
+}
+```
