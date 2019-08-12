@@ -11,6 +11,7 @@ Examples:
 2. Problem: [Write a fuctorial function](#problem-2)
 3. Problem: [Write a function which accepts a number and sum up all numbers from 0 to passed number](#problem-3)
 4. Problem: [Write a function which takes in an array of numbers and sum up all numbers in array](#problem-4)
+5. Problem: [Write a function which takes in a string and reverse it](#problem-5)
 
 #### Problem 1
 1. Write function power, which accepts the base and the exponent.
@@ -80,8 +81,8 @@ function sumUp(num) {
 ```javascript
 Input/Output:
 
-mulpOfArray([1, 2, 3]]); // 6
-mulpOfArray([10, 50, 7]]); // 67
+mulpOfArray([1, 2, 3]); // 6
+mulpOfArray([10, 50, 7]); // 67
 ```
 
 ```javascript
@@ -90,5 +91,24 @@ Solution:
 function mulpOfArray(arr) {
     if (!arr.length) return 1;
     return arr[0] * mulpOfArray(arr.slice(1));
+}
+```
+
+#### Problem 5
+5. Write a function which takes in a string and reverse it
+
+```javascript
+Input/Output:
+
+reverseStr("helloyuo"); // "ouyolleh"
+reverseStr("worksmart"); // "tramskrow"
+```
+
+```javascript
+Solution:
+
+function reverseStr(str) {
+    if (!str.length) return "";
+    return reverseStr(str.slice(1)) + str[0];
 }
 ```
