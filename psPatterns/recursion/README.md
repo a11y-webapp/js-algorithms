@@ -12,6 +12,7 @@ Examples:
 3. Problem: [Write a function which accepts a number and sum up all numbers from 0 to passed number](#problem-3)
 4. Problem: [Write a function which takes in an array of numbers and sum up all numbers in array](#problem-4)
 5. Problem: [Write a function which takes in a string and reverse it](#problem-5)
+6. Problem: [Write a function which takes in a string and check if it is a palindrome](#problem-6)
 
 #### Problem 1
 1. Write function power, which accepts the base and the exponent.
@@ -110,5 +111,28 @@ Solution:
 function reverseStr(str) {
     if (!str.length) return "";
     return reverseStr(str.slice(1)) + str[0];
+}
+```
+
+#### Problem 6
+6. Write a function which takes in a string and check if it is a palindrome
+
+```javascript
+Input/Output:
+
+isPalindrome("helloyuo"); // false
+isPalindrome("tetetet"); // true
+```
+
+```javascript
+Solution:
+
+function isPalindrome(str) {
+    if (str.length < 2) return true;
+    if (str[0] !== str[str.length - 1]) {
+        return false;
+    } else {
+        return isPalindrome(str.slice(1, str.length - 1));
+    }
 }
 ```
