@@ -19,6 +19,7 @@ Difinition of data structures.
 
 ## Search algorithms 
 * [Linear Search](./searchAlgorithms/linearSearch)
+* [Binary Search](./searchAlgorithms/binarySearch)
 
 ## Data Structures:
 
