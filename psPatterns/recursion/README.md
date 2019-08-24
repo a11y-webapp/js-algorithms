@@ -13,6 +13,7 @@ Examples:
 4. Problem: [Write a function which takes in an array of numbers and sum up all numbers in array](#problem-4)
 5. Problem: [Write a function which takes in a string and reverse it](#problem-5)
 6. Problem: [Write a function which takes in a string and check if it is a palindrome](#problem-6)
+7. Problem: [Write a function which takes in an array of strings and makes first letter capital for all emenets](#problem-7)
 
 #### Problem 1
 1. Write function power, which accepts the base and the exponent.
@@ -134,5 +135,25 @@ function isPalindrome(str) {
     } else {
         return isPalindrome(str.slice(1, str.length - 1));
     }
+}
+```
+
+#### Problem 7
+7. Write a function which takes in an array of strings and makes first letter capital for all emenets
+
+```javascript
+Input/Output:
+
+firstCapitalLetter(["my", "dear", "friend"]); // ["My", "Dear", "Friend"]
+```
+
+```javascript
+Solution:
+
+function firstCapitalLetter(arr, idx = 0) {
+    if (idx > arr.length - 1) return arr;
+  
+    arr[idx] = arr[idx].charAt(0).toUpperCase() + arr[idx].slice(1);
+    return capitalizeFirst(arr, ++idx);
 }
 ```
