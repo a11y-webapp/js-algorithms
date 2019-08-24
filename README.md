@@ -17,7 +17,7 @@ Difinition of data structures.
 * [BigO](./basic/bigo)
 * [Call stack](./basic/callStack)
 
-## Search algoritms 
+## Search algorithms 
 * [Liniar Search](./searchAlgorithms/linear)
 
 ## Data Structures:
