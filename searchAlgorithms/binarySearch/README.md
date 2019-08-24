@@ -4,8 +4,8 @@ The **Binary search algorithm** is based on determing chungs where searched valu
 
 ### BigO of binary search
 
-Best: O(1)
-Average/Worst: O(log n)
+* Best: O(1)
+* Average/Worst: O(log n)
 
 ### Implementation of Binary Search
 
