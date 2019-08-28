@@ -4,7 +4,7 @@ A linked list is an ordered collection of data elements (nodes). Each node consi
 
 ### Advantages:
 
-* It allocates memory as the list grows, compared to arrays, which have a fixed size in sone languages.
+* It allocates memory as the list grows, compared to arrays, which have a fixed size in some languages.
 
 * In contrast to an array, which stores data contiguously in memory, a linked list can easily insert or remove nodes from the list without reorganization of the entire data structure.
 
