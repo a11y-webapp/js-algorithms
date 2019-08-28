@@ -1,6 +1,6 @@
 ## Binary Search
 
-The **Binary search algorithm** is based on determing chungs where searched value might be presented. But it only applicable for **sorted arrays**. Binary search is built on Divide and Conquer pattern. This algorithm is more efficient compared to Linear Search. 
+The **Binary search algorithm** is based on determining chunks where searched value might be presented. But it only applicable for **sorted arrays**. Binary search is built on Divide and Conquer pattern. This algorithm is more efficient compared to Linear Search. 
 
 ### BigO of binary search
 
