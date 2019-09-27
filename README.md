@@ -22,6 +22,10 @@ Difinition of data structures.
 * [Binary Search](./searchAlgorithms/binarySearch)
 * [Naive Pattern Search](./searchAlgorithms/naivePatternSearch)
 
+## Sorting 
+* [BubbleSort](./sorting/bubbleSort)
+
+
 ## Data Structures:
 
 * [Linked List](./dataStructure/linkedList)
