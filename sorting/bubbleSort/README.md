@@ -1,6 +1,6 @@
 ## Bubble Sort
 
-The **bubble sorting algorithm** is based on bubbling up the largest value to the top. Looping through the array compare the current value (i) with the next one (i+1), if it's bigger then swap them. Then compare the next element with the element after it, if it's bigger - swap, if not - leave as it is. After first iteration the biggest element will  be the last one. Next iteration starts from the beggining and ends n-1.
+The **bubble sorting algorithm** is based on bubbling up the largest value to the top. Looping through the array compare the current value (i) with the next one (i+1), if it's bigger then swap them. Then compare the next element with the element after it, if it's bigger - swap, if not - leave as it is. After first iteration the biggest element will  be the last one.
 
 ### Disadvantage of Bubble sort
 * It is very slow, runs in O(n^2) time in worst case.
