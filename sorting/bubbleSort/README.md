@@ -8,7 +8,7 @@ The **bubble sorting algorithm** is based on bubbling up the largest value to th
 
 ### BigO of bubble sort
 
-* Best: O(n) // for nearly sorted array for optimized version
+* Best: O(n). If the arrays is nearly sorted and version of implimination is optimized
 * Average/Worst: O(n^2)
 
 ### Implementation of Bubble Sort
@@ -44,7 +44,7 @@ Problems with current solution:
 
 2. Having both loops till the end of the array, we compare already sorted elements.
 
-3. Problem with bubble sort in general if we have nearly sorted array, the function keeps going no matter if it does swaps or not, performing sorting on the already sorted array. If no swaps were made during 1 iteration, no further swaps needed, so we can stop the algorithm.
+3. Problem with bubble sort in general if we have nearly sorted array, the function keeps going no matter if it does swaps or not, performing sorting on the already sorted array. If no swaps were made during one iteration, no further swaps needed, so we can stop the algorithm.
 
 
 Solutions:
