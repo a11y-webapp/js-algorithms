@@ -1,14 +1,19 @@
 ## Bubble Sort
 
-The **bubble sorting algorithm** is based on bubbling up largest value to the top. Looping through the compare the current value (i) with the next one (i+1), if it's bigger then swap them. Then compare swaped element with the next item, if it's bigger - swap, if not - go to the next element and compare with element after it and so on. Than start all over from the beggining.
+The **bubble sorting algorithm** is based on bubbling up the largest value to the top. Looping through the array compare the current value (i) with the next one (i+1), if it's bigger then swap them. Then compare the next element with the element after it, if it's bigger - swap, if not - leave as it is. After first iteration the biggest element will  be the last one. Next iteration starts from the beggining and ends n-1.
+
+### Disadvantage of Bubble sort
+* It is very slow, runs in O(n^2) time in worst case.
+* The loop continues to run even if the array is sorted.
+
+### BigO of bubble sort
+
+* Best: O(n)
+* Average/Worst: O(n^2)
 
 ### Optimization of initial bubble sort
 * Start from the end of the array, move to the beggining
 
-### BigO of bubble sort
-
-* Best: 
-* Average/Worst: 
 
 
 ### Implementation of Bubble Sort
@@ -16,10 +21,72 @@ The **bubble sorting algorithm** is based on bubbling up largest value to the to
 ```javascript
 Input/Output:
 
+bubbleSort([34,56,77,2,1]); // [1,2,34,66,87]
 ```
 
 ```javascript
 Solution:
 
+function bubbleSort(arr) {
+    for (let j = 0; j < arr.length; j++) {
+        for (let i = 0; i < arr.length; i++) {
+            if(arr[i] > arr[i+1]) {
+                //swap
+                let temp = arr[i];
+                arr[i] = arr[i+1];
+                arr[i+1] = temp;
+            }
+        }    
+    }
+    return arr;
+}
+```
 
+
+Problems with current solution:
+
+1. Too many unnecessary comparison, for example in IF block on last iteration we compare arr[i] arr[i+1], where arr[i+1] is UNDEFINED, since we reached the end of the array.
+
+2. Having two loops till the end of the array, we compare already sorted elements.
+
+3. Problem with bubble sort in general if we have nearly sorted array, the function keeps going no matter if it does swaps or not, performing sorting on the already sorted array. If no swaps were made during 1 iteration, no further swaps needed, so we can stop the algorithm.
+
+```javascript
+Solutions:
+
+There are several solutions for problems 1&2. 
+1. Cut the length of the inner loop from *i < arr.length* to *i < arr.length - 1 - j*
+2. OR start from the end of the array in first loop and move to the beginning
+
+
+for (let j = arr.length; j > 0; j--) {
+        for (let i = 0; i < j - 1; i++) {
+            ...
+        }
+}
+```
+
+3. To solve the 3rd problem we can introduce additional variable, which tracks if no swaps were made.
+
+
+```javascript
+Optimazed Solution:
+
+function bubbleSort(arr) {
+    let noSwaps;
+    for (let j = arr.length; j > 0; j--) {
+        noSwaps = true;
+        for (let i = 0; i < j - 1; i++) {
+            if(arr[i] > arr[i+1]) {
+                //swap
+                let temp = arr[i];
+                arr[i] = arr[i+1];
+                arr[i+1] = temp;
+                noSwaps = false;
+            }
+        }    
+        if (noSwaps) break;
+    }
+    return arr;
+}
 ```
