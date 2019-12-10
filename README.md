@@ -23,8 +23,8 @@ Difinition of data structures.
 * [Naive Pattern Search](./searchAlgorithms/naivePatternSearch)
 
 ## Sorting 
-* [BubbleSort](./sorting/bubbleSort)
-* [SelectionSort](./sorting/selectionSort)
+* [Bubble Sort](./sorting/bubbleSort)
+* [Selection Sort](./sorting/selectionSort)
 
 
 ## Data Structures:
