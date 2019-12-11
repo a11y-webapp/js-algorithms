@@ -25,6 +25,7 @@ Difinition of data structures.
 ## Sorting 
 * [Bubble Sort](./sorting/bubbleSort)
 * [Selection Sort](./sorting/selectionSort)
+* [Insertion Sort](./sorting/insertionSort)
 
 
 ## Data Structures:
