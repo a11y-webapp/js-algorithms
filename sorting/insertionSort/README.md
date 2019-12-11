@@ -14,6 +14,7 @@ The **insertion sorting algorithm** is based on picking up an element, string fr
 
 * Best: O(n^2)
 * Average/Worst: O(n^2)
+* Space Complexity: O(1)
 
 ### Implementation of Insertion Sort
 

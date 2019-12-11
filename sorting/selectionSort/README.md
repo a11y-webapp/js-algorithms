@@ -2,14 +2,16 @@
 
 The **selection sorting algorithm** is based on location the minimun value in the array and position it in the beginig. The logic of the algorithm is: start from the begining, take the first element compare it with the rest of the array, find the minimum value, than swap the minimum value with the first element, or leave the first element if it is already a minimum. At this stage the minimum value of the array is sorted, we do not need to touch it anymore. Move to the next value, repeat the algorithm. 
 
-### Disadvantage of Selection sort
+### Disadvantages of Selection sort
 * It is a bit better than Bubble Sort, but still quit slow and runs in O(n^2) time in worst case. The improvement from Bubble Sort is less swaping. 
+* It's not good for nearly sorted arrays
 
 
 ### BigO of Selection sort
 
 * Best: O(2) Same as Buuble Sort. if the arrays is nearly sorted and version of implimination is optimized
 * Average/Worst: O(n^2)
+* Space Complexity: O(1)
 
 ### Implementation of Selection Sort
 
