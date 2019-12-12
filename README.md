@@ -28,6 +28,11 @@ Basic or quadratic sorting algorithms
 * [Selection Sort](./sorting/selectionSort)
 * [Insertion Sort](./sorting/insertionSort)
 
+|Comparison table| TimeCom (best) | TimeCom (avr/worst) | SpaceCom |
+|----------------|----------------|---------------------|----------|
+| Bubble Sort    |     O(n)       |         O(n^2)      |   O(1)   |
+| Selection Sort |     O(n)       |         O(n^2)      |   O(1)   |
+| Insertion Sort |     O(n)       |         O(n^2)      |   O(1)   |
 
 ## Data Structures:
 
