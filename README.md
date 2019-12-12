@@ -23,6 +23,7 @@ Difinition of data structures.
 * [Naive Pattern Search](./searchAlgorithms/naivePatternSearch)
 
 ## Sorting 
+Basic or quadratic sorting algorithms
 * [Bubble Sort](./sorting/bubbleSort)
 * [Selection Sort](./sorting/selectionSort)
 * [Insertion Sort](./sorting/insertionSort)
