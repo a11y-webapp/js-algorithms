@@ -52,3 +52,8 @@ Intermediate Sorting algorithm.
 ## React:
 
 * [Components](./react)
+
+
+
+
+### [Quick tips](./tips)
