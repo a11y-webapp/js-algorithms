@@ -3,6 +3,11 @@
 Solved examples of problem solving via JS.
 Difinition of data structures.
 
+## Basics
+* [BigO](./basic/bigo)
+* [Call stack](./basic/callStack)
+* [OOP principals](./basic/oop)
+
 ## Problem Solving Patterns:
 
 <!-- * [Arrays](./array) -->
@@ -12,10 +17,6 @@ Difinition of data structures.
 * [Sliding Window Pattern](./psPatterns/slidingWindow) [*longest unique substr, max subarr sum, or **continuous subset** of the data, minSubarrayLength*]
 * [Divide and Conquer](./psPatterns/divideConquer) [*binary search*]
 * [Recursion](./psPatterns/recursion)
-
-## Basic knowledge
-* [BigO](./basic/bigo)
-* [Call stack](./basic/callStack)
 
 ## Search algorithms 
 * [Linear Search](./searchAlgorithms/linearSearch)
